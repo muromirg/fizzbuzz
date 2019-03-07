@@ -1,0 +1,2 @@
+all:
+	g++ buzz.cpp
