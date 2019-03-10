@@ -1,3 +1,4 @@
 all:
-	g++ buzz.cpp
+	g++ buzz.cpp -std=c++1z
+
 
