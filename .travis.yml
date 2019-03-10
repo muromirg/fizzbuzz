@@ -2,4 +2,4 @@ language: cpp
 
 script:
 - make
-- ./build/a.out 12 3 4 5 56
+- ./a.out 12 3 4 5 56
