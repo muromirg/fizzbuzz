@@ -1,2 +1,2 @@
 all:
-	g++ buzz.cpp
+	g++ buzz.cpp -o build/a.out
