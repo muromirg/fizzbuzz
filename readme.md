@@ -1,8 +1,6 @@
 ## FIZZBUZZ
 
-[![TravisCI Status](https://travis-ci.org/muromirg/fizzbuzz.svg?branch=master)](https://travis-ci.org/muromirg/fizzbuzz)
-
-[![Bintray](https://img.shields.io/bintray/v/helloo/fizzbuzzz/fizzbuzz_main.svg?maxAge=2592000)](https://bintray.com/helloo/fizzbuzzz/fizzbuzz_main)
+[![TravisCI Status](https://travis-ci.org/muromirg/fizzbuzz.svg?branch=master)](https://travis-ci.org/muromirg/fizzbuzz) [![Bintray](https://img.shields.io/bintray/v/helloo/fizzbuzzz/fizzbuzz_main.svg?maxAge=2592000)](https://bintray.com/helloo/fizzbuzzz/fizzbuzz_main)
 
 This project contains the FIZZBUZZ function, which:
 1) Takes the string with numbers, divided by spaces, as input
