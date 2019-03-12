@@ -1,4 +1,4 @@
-##FIZZBUZZ
+## FIZZBUZZ
 
 This project contains the FIZZBUZZ function, which:
 1) Takes the string with numbers, divided by spaces, as input
