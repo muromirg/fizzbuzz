@@ -15,6 +15,7 @@ addons:
 
 script: 
   - make
+  - mkdir build
   - make test
   - ./build/test.out
 
