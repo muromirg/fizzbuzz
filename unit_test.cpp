@@ -15,7 +15,7 @@ void printv(const vector<string>& v)
 
 void test(vector<string>& test, vector<string>& answer)
 {
-	vector<string> tmp = fizzbuzz(test);
+	vector<string> tmp = fizzbuzz(test); //runnung fizzbuzz function here
 	cout << "Input : ";
 	printv(test);
 	cout << "Output : ";
