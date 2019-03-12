@@ -14,8 +14,8 @@ addons:
     - g++-7-multilib
 
 script: 
-  - make
   - mkdir build
+  - make
   - make test
   - ./build/test.out
 
