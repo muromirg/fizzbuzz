@@ -3,6 +3,8 @@
 
 using namespace std;
 
+//The best unit test formatting in history here
+
 void printv(const vector<string>& v)
 {
 	for (int i = 0; i < v.size(); i++)
@@ -24,6 +26,7 @@ void test(vector<string>& test, vector<string>& answer)
 	else cout << "Test failed: wrong answer\n\n";
 }
 
+
 int main()
 {
 	vector<string> v1 = {"1", "2", "3", "4", "5"},
@@ -34,6 +37,7 @@ int main()
 				   		 "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005"},
 				   v5 = {"a", "b", "c", "abc"};
 
+	//This is really true answers. No сheating!
 	vector<string> a1 = {"1", "2", "fizz", "4", "buzz"},
 				   a2 = {"buzz", "fizz", "1231312", "fizz", "3241234121", "fizz"},
 				   a3 = {"fizz", "fizz", "fizzbuzz", "buzz"},
