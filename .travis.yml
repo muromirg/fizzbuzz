@@ -1,5 +1,22 @@
 language: cpp
 
-script:
-- make
-- ./a.out 12 3 4 5 56
+compiler: g++-7
+
+cache:
+  apt: true
+
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - g++-7
+    - g++-7-multilib
+
+script: 
+  - make
+  - make test
+  - ./build/test.out
+
+sudo: false
+dist: trusty
