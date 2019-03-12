@@ -1,3 +1,5 @@
+//Including this file to the project is enough to use fizzbuzz function
+
 #include <string>
 #include <vector>
 
