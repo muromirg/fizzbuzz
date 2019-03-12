@@ -1,5 +1,7 @@
 ## FIZZBUZZ
 
+[![Build Status](https://travis-ci.org/muromirg/fizzbuzz.svg?branch=master)](https://travis-ci.org/muromirg/fizzbuzz)
+
 This project contains the FIZZBUZZ function, which:
 1) Takes the string with numbers, divided by spaces, as input
 	- Actually you can enter any symbols you want, they will be interpreted as their ASCII codes.
