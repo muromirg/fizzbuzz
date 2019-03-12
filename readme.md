@@ -16,5 +16,3 @@ To build:
 - open bash in the project folder
 - make 	    -- builds program main.out, which takes a string with numbers as argv[] parameters;
 - make test -- builds test program test.out, which runs some unit tests.
-
-Also, project is connected with Travis CI system, can be found [here](https://travis-ci.org/muromirg/fizzbuzz).
