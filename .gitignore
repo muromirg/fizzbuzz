@@ -1,1 +1,5 @@
 build/*.out
+covinfo
+*.gcno
+*.gcda
+*.info

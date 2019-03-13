@@ -12,6 +12,7 @@ addons:
     packages:
     - g++-7
     - g++-7-multilib
+    - lcov
 
 script: 
   - mkdir build
