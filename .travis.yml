@@ -18,10 +18,8 @@ script:
   - make
   - make test
   - ./build/test.out
-
-after_success:
   - export CODECOV_TOKEN="958b24cb-862f-4988-86f4-0e328d7faf23"
-  - bash <(curl -s https://codecov.io/bash) -f coverage.info
+  - bash <(curl -s https://codecov.io/bash)
 
 sudo: false
 dist: trusty
