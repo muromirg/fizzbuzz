@@ -27,7 +27,7 @@ bool check_div5(const std::string& inp)
 }
 
 
-
+//String datatype for numbers is chosen to ignore integer types size resctrictions
 std::vector<std::string> fizzbuzz(const std::vector<std::string>& input)
 {	
 	std::vector<std::string> ans;
