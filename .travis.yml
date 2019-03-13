@@ -18,7 +18,6 @@ script:
   - make
   - make test
   - ./build/test.out
-  - <(curl -s https://codecov.io/bash) && echo "Uploaded code coverage"
 
 sudo: false
 dist: trusty
