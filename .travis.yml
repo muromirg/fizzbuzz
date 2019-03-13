@@ -12,7 +12,6 @@ addons:
     packages:
     - g++-7
     - g++-7-multilib
-    - lcov
 
 script: 
   - mkdir build
@@ -22,7 +21,6 @@ script:
 
 after_success:
   - export CODECOV_TOKEN="958b24cb-862f-4988-86f4-0e328d7faf23"
-  - lcov --directory . --capture --output-file coverage.info
   - bash <(curl -s https://codecov.io/bash) -f coverage.info
 
 sudo: false
