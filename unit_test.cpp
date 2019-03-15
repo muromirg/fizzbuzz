@@ -4,7 +4,7 @@
 */
 
 #define CATCH_CONFIG_MAIN
-#include "test_lib/catch.hpp"
+#include <catch.hpp>
 #include "buzz.hpp"
 
 
