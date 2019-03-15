@@ -1,4 +1,8 @@
-//Including this file to the project is enough to use fizzbuzz function
+/*
+	Fizzbuzz function implementation
+	Including "buzz.hpp" to the project is sufficiently to use the function
+*/
+
 
 #include <string>
 #include <vector>

@@ -1,6 +1,6 @@
 ## FIZZBUZZ
 
-[![TravisCI](https://travis-ci.org/muromirg/fizzbuzz.svg?branch=master)](https://travis-ci.org/muromirg/fizzbuzz) [![Bintray](https://img.shields.io/bintray/v/helloo/fizzbuzzz/fizzbuzz_main.svg?maxAge=2592000)](https://bintray.com/helloo/fizzbuzzz/fizzbuzz_main) [![codecov](https://codecov.io/gh/muromirg/fizzbuzz/branch/master/graph/badge.svg)](https://codecov.io/gh/muromirg/fizzbuzz)
+[![Build Status](https://travis-ci.org/muromirg/fizzbuzz.svg?branch=master)](https://travis-ci.org/muromirg/fizzbuzz) [![Bintray](https://img.shields.io/bintray/v/helloo/fizzbuzzz/fizzbuzz_main.svg?maxAge=2592000)](https://bintray.com/helloo/fizzbuzzz/fizzbuzz_main) [![codecov](https://codecov.io/gh/muromirg/fizzbuzz/branch/master/graph/badge.svg)](https://codecov.io/gh/muromirg/fizzbuzz)
 
 
 
@@ -18,3 +18,4 @@ To build:
 - open bash in the project folder
 - make 	    -- builds program main.out, which takes a string with numbers as argv[] parameters;
 - make test -- builds test program test.out, which runs some unit tests.
+
