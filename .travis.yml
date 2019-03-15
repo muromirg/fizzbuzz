@@ -13,12 +13,13 @@ addons:
     - g++-7
     - g++-7-multilib
     - lcov
+    - catch
 
 script: 
   - mkdir build
   - make
   - make test
-  - ./build/test.out
+  - ./build/test.out --success
   - export CODECOV_TOKEN="958b24cb-862f-4988-86f4-0e328d7faf23"
   - lcov --no-external --capture --directory . --output-file cov.info
   - bash <(curl -s https://codecov.io/bash) -f cov.info

@@ -15,6 +15,11 @@ std::string sum_digit(const std::string& inp)
 bool check_div3(const std::string& inp)
 {
 	std::string digit = inp;
+
+	//To not count '-' as digit in the sum
+	if (digit[0] == '-')
+		digit.erase(0, 1);
+
 	while (sum_digit(digit) != digit)
 		digit = sum_digit(digit);
 	
